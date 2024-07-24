@@ -184,6 +184,10 @@
 		<data>
 		Ubat0LvE4LUgCwHeyl0Anx2vnzk=
 		</data>
+		<key>GoogleService-Info.plist</key>
+		<data>
+		eiw7XhEVErp/blvC70plo1n41Uw=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		clDNS6n3KcrqPzAdzTMfeB1avIU=
@@ -508,6 +512,13 @@
 			<key>hash2</key>
 			<data>
 			ZepykIMSjfzhwAcmupMrkaqvXkhza1ZE3TdHjl8odaw=
+			</data>
+		</dict>
+		<key>GoogleService-Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ixwouUb2nPTBugRJA0GQ0ulF6kbrE5r483srQzq4p+U=
 			</data>
 		</dict>
 	</dict>
