@@ -1,0 +1,64 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color run --machine --track-widget-creation --device-id=emulator-5554 --start-paused --profile --dart-define=flutter.inspector.structuredErrors=true lib/main.dart
+
+## exception
+
+String: failed to connect to http://127.0.0.1:61853/Jc-mBuzKLZY=/
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.22.2, on macOS 14.5 23F79 darwin-arm64, locale en-VN)
+    • Flutter version 3.22.2 on channel stable at /Users/tkhunng/flutter/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 761747bfc5 (7 weeks ago), 2024-06-05 22:15:13 +0200
+    • Engine revision edd8546116
+    • Dart version 3.4.3
+    • DevTools version 2.34.3
+
+[!] Android toolchain - develop for Android devices (Android SDK version 35.0.0)
+    • Android SDK at /Users/tkhunng/Library/Android/sdk
+    • Platform android-35, build-tools 35.0.0
+    • Java binary at: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 17.0.10+0-17.0.10b1087.21-11609105)
+    ! Some Android licenses not accepted. To resolve this, run: flutter doctor --android-licenses
+
+[✓] Xcode - develop for iOS and macOS (Xcode 15.4)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Build 15F31d
+    • CocoaPods version 1.15.2
+
+[✓] Chrome - develop for the web
+    • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[✓] Android Studio (version 2024.1)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 17.0.10+0-17.0.10b1087.21-11609105)
+
+[✓] Connected device (7 available)
+    • Pixel 3 XL (mobile)             • 8BMY112ZS                                • android-arm64  • Android 12 (API 31)
+    • sdk gphone64 arm64 (mobile)     • emulator-5554                            • android-arm64  • Android 15 (API 35) (emulator)
+    • iPhone (mobile)                 • fc508ce9cd99175decc6510486ecbc9c818bdaa2 • ios            • iOS 16.7.4 20H240
+    • iPhone 15 Pro Max (mobile)      • 8480A606-FB13-4FF7-85EF-5F7059114000     • ios            • com.apple.CoreSimulator.SimRuntime.iOS-17-5 (simulator)
+    • macOS (desktop)                 • macos                                    • darwin-arm64   • macOS 14.5 23F79 darwin-arm64
+    • Mac Designed for iPad (desktop) • mac-designed-for-ipad                    • darwin         • macOS 14.5 23F79 darwin-arm64
+    • Chrome (web)                    • chrome                                   • web-javascript • Google Chrome 126.0.6478.183
+    ! Error: Browsing on the local area network for iPad. Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.
+      The device must be opted into Developer Mode to connect wirelessly. (code -27)
+
+[✓] Network resources
+    • All expected network resources are available.
+
+! Doctor found issues in 1 category.
+```
